@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="Component.js"></script>
+</head>
+<body>
+
+<script>
+window.onload = () =>{
+	const inputText = new Factory('inputText')
+	const inputButton = new Factory('inputButton')
+	const br = new Factory('br')
+	
+	document.body.appendChild(inputText.make())
+	document.body.appendChild(br.make())
+	document.body.appendChild(inputButton.make())
+}	
+</script>
+</body>
+</html>

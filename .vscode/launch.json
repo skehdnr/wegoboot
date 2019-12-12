@@ -8,9 +8,9 @@
       "name": "Launch Chrome 127.0.0.1",
       "type": "chrome",
       "request": "launch",
-      "port": 9297,
+      "port": 9230,
       "webRoot": "${workspaceFolder}",
-      "url": "http://127.0.0.1:54703/p/wego/index.html?_cmAuth\u003dcargqpvoml"
+      "url": "http://127.0.0.1:54703/p/wego/VendingMachine.html?_cmAuth\u003dcargqpvoml"
     },
     {
       "name": "Launch Chrome 127.0.0.1 (1)",
@@ -35,6 +35,30 @@
       "port": 9212,
       "webRoot": "${workspaceFolder}",
       "url": "http://127.0.0.1:54703/p/wego/switch.html?_cmAuth\u003dcargqpvoml"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (7)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9234,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54703/p/wego/loop.html?_cmAuth\u003dcargqpvoml"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (9)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9234,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54703/p/wego/object.html?_cmAuth\u003dcargqpvoml"
+    },
+    {
+      "name": "Launch Chrome 127.0.0.1 (10)",
+      "type": "chrome",
+      "request": "launch",
+      "port": 9231,
+      "webRoot": "${workspaceFolder}",
+      "url": "http://127.0.0.1:54703/p/wego/login.html?_cmAuth\u003dcargqpvoml"
     }
   ]
 }
